@@ -1,3 +1,5 @@
+<!-- html for the tic4tac web app, by bph- -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,24 +11,35 @@
 </head>
 
 <body>
+	<!-- the title and description -->
 	<div id="intro">
 		<h1 id="title">/tic4tac/</h1>
 		<h6>a javascript tic-tac-toe app by bph- v.03</h6>
 	</div>
 
+	<!-- gameStream, where instructions will be given -->
 	<div id="gameStream">Welcome to tic4tac. Click <a onclick="welcome()">here</a> to start!</div>
+	
+	<!-- the actual white gameboard -->
 	<div id="gameBackground">
+	
+		<!-- the actual squares for the tic-tac-toe board -->
 		<div id="gameBoard">
-			<div id="seven" onclick="enterTurn('seven')">&nbsp;</div>
-			<div id="eight" onclick="enterTurn('eight')">&nbsp;</div>
-			<div id="nine" onclick="enterTurn('nine')">&nbsp;</div>
-			<div id="four" onclick="enterTurn('four')">&nbsp;</div>
-			<div id="five" onclick="enterTurn('five')">&nbsp;</div>
-			<div id="six" onclick="enterTurn('six')">&nbsp;</div>
-			<div id="one" onclick="enterTurn('one')">&nbsp;</div>
-			<div id="two" onclick="enterTurn('two')">&nbsp;</div>
-			<div id="three" onclick="enterTurn('three')">&nbsp;</div>
+		
+			<!-- the game squares, from top to bottom, left to right -->
+			<div id="s7" onclick="enterTurn('s7')">&nbsp;</div>
+			<div id="s8" onclick="enterTurn('s8')">&nbsp;</div>
+			<div id="s9" onclick="enterTurn('s9')">&nbsp;</div>
+			<div id="s4" onclick="enterTurn('s4')">&nbsp;</div>
+			<div id="s5" onclick="enterTurn('s5')">&nbsp;</div>
+			<div id="s6" onclick="enterTurn('s6')">&nbsp;</div>
+			<div id="s1" onclick="enterTurn('s1')">&nbsp;</div>
+			<div id="s2" onclick="enterTurn('s2')">&nbsp;</div>
+			<div id="s3" onclick="enterTurn('s3')">&nbsp;</div>
 		</div>
 	</div>
+	
+	<!-- allows for text below the gameboard -->
+	<div id="belowGame">&nbsp;</div>
 </body>
 </html>

@@ -80,41 +80,43 @@ h6 {
 	font-weight: 100;
 }
 
+#belowGame {
+	margin-top: 0.8em;
+	text-align: center;
+	font-size: 200%;
+	color: #999;
+	font-weight: 100;
+	padding-top: 0.5em;
+	padding-bottom: 3em;
+}
+
 #gameStream a {
 	color: #fff;
 	cursor: pointer;
 }
 
-#one {
+#s1 {
 	float: left;
 	width: 100px;
 	height: 100px;
 	border-right-style: solid;
 }
 
-#two {
+#s2 {
 	float: left;
 	width: 100px;
 	height: 100px;
 	border-right-style: solid;
 }
 
-#three {
+#s3 {
 	float: left;
 	width: 100px;
 	height: 100px;
 }
 
 
-#four {
-	float: left;
-	width: 100px;
-	height: 100px;
-	border-right-style: solid;
-	border-bottom-style: solid;
-}
-
-#five {
+#s4 {
 	float: left;
 	width: 100px;
 	height: 100px;
@@ -122,15 +124,7 @@ h6 {
 	border-bottom-style: solid;
 }
 
-#six {
-	float: left;
-	width: 100px;
-	height: 100px;
-	border-bottom-style: solid;
-}
-
-
-#seven {
+#s5 {
 	float: left;
 	width: 100px;
 	height: 100px;
@@ -138,7 +132,15 @@ h6 {
 	border-bottom-style: solid;
 }
 
-#eight {
+#s6 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-bottom-style: solid;
+}
+
+
+#s7 {
 	float: left;
 	width: 100px;
 	height: 100px;
@@ -146,11 +148,24 @@ h6 {
 	border-bottom-style: solid;
 }
 
-#nine {
+#s8 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+#s9 {
 	float: left;
 	width: 100px;
 	height: 100px;
 	border-bottom-style: solid;
+}
+
+#belowGame a {
+	text-decoration: none;
+	color: #fff;
 }
 
 input {
